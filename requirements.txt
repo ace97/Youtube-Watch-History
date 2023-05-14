@@ -1,1 +1,9 @@
 seaborn
+streamlit
+calendar
+json
+pandas
+numpy
+seaborn
+matplotlib
+datetime
