@@ -1,9 +1,9 @@
 seaborn
-streamlit
+streamlit>=1.20.0
 calendar
 json
 pandas
 numpy
-seaborn
+seaborn>=0.12.2
 matplotlib
 datetime
