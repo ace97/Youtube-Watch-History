@@ -48,7 +48,7 @@ if field == 'All':
     by_date = by_date.sort_index()
 
     by_date["weekday"] = by_date.index.weekday
-    by_date["week"] = by_date.index.week
+    by_date["week"] = by_date.index.weekofyear
 
     week = 0
     prev_week = by_date.iloc[0]["week"]
@@ -97,7 +97,7 @@ elif field == 'YouTube Videos':
     by_date = by_date.sort_index()
 
     by_date["weekday"] = by_date.index.weekday
-    by_date["week"] = by_date.index.week
+    by_date["week"] = by_date.index.weekofyear
 
     week = 0
     prev_week = by_date.iloc[0]["week"]
@@ -146,7 +146,7 @@ elif field == 'YouTube Music':
     by_date = by_date.sort_index()
 
     by_date["weekday"] = by_date.index.weekday
-    by_date["week"] = by_date.index.week
+    by_date["week"] = by_date.index.weekofyear
 
     week = 0
     prev_week = by_date.iloc[0]["week"]
